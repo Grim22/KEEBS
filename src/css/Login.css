@@ -1,0 +1,385 @@
+.login-container{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.login-container .form-container{
+  background-color: rgb(32,32,32);
+  width: 30vw;
+  height: 70vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.login-container .image-container{
+  width: 30vw;
+  height: 70vh;
+}
+
+.login-container .image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+form{
+  width: 80%;
+  height:auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 80px 0 80px;
+}
+
+
+.form-container .heading{
+  color:#f0f0f0;
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: 'Saira';
+  text-align: center;
+  letter-spacing: .03em;
+}
+
+.form-container .input-box{
+  width: 70%;
+  height: 50px;
+  background-color: rgb(88, 88, 88);
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.form-container .input-box .username,
+.form-container .input-box .password{
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-family: 'Saira';
+}
+
+.form-container .input-box input::placeholder{
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.form-container .input-box .user-icon{
+  color:#f0f0f0;
+  margin-left: 10px;
+}
+
+
+.form-container .input-box .pass-icon{
+  color: #f0f0f0;
+  margin-left: 10px;
+}
+
+.remember-forgot{
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rem{
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.rem .rem-label{
+  width: 100%;
+}
+
+.remember-forgot .remember{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.remember-forgot label{
+  width: 70%;
+  color: #f0f0f0;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Saira';
+}
+
+.login-container .error{
+  color: red;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Saira';
+}
+
+.register-link{
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.register-link p{
+  color: #f0f0f0;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Saira';
+}
+
+.register-link a{
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0;
+}
+
+.login-container .image-container .heading{
+  color: white;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: 'Saira';
+
+  position: relative;
+  bottom: 80%;
+  left: 32%;
+}
+
+.error{
+  color: red;
+}
+
+.submit-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bolder;
+  font-family: 'Saira';
+  letter-spacing: 0.05em;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 1.25em 2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  font-size: 1em;
+
+  margin: 10px 0 10px 0;
+}
+
+.submit-btn .text {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.submit-btn:hover {
+  color: black;
+  background:  #ffbc00;
+  border-color:  #ffbc00;
+}
+
+.submit-btn:hover::before {
+  width: 0.9375rem;
+  background: black
+}
+
+.submit-btn:hover .text {
+  color: black;
+  padding-left: 1.5em;
+}
+
+
+
+
+@media screen and (max-width: 1366px) {
+  
+  .login-container .form-container{
+    background-color: rgb(32,32,32);
+    width: 40vw;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+  .login-container .image-container{
+    width: 40vw;
+    height: 70vh;
+  }
+
+  .login-container .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  
+  .login-container .form-container{
+    background-color: rgb(32,32,32);
+    width: 50vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login-container .image-container{
+    width: 50vw;
+    height: 100vh;
+  }
+
+  .login-container .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .login-container .form-container{
+    background-color: rgb(32,32,32);
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form{
+    width: 70%;
+    height: auto;
+  }
+
+  .login-container .image-container{
+    display: none;
+  }
+
+  .login-container .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  
+}
+
+
+
+@media screen and (max-width: 430px) {
+
+  .login-container .form-container{
+    background-color: rgb(32,32,32);
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form{
+    width: 100%;
+    height: auto;
+  }
+
+  .login-container .image-container{
+    display: none;
+  }
+
+  .login-container .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+
+  .login-container .form-container{
+    background-color: rgb(32,32,32);
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form{
+    width: 120%;
+    height: auto;
+  }
+
+  .login-container .image-container{
+    display: none;
+  }
+}
+
+
+

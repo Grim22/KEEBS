@@ -1,0 +1,359 @@
+
+
+
+.seemore-container .content-container{
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.seemore-container .row-1{
+    width: 100%;
+    max-width: 1300px;
+    height: 468px;
+    margin-top: 50px;
+
+    display: flex;
+}
+
+.seemore-container .row-1 .img{
+    width: 50%;
+    height: 100%;
+}
+
+.seemore-container .row-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seemore-container .row-1 .text-container-container{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seemore-container .row-1 .text-container{
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.seemore-container .text-container .title-box{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+
+    color: #f0f0f0;
+    font-size: 3em;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.seemore-container .text-container .description{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+
+    line-height: 26px;
+
+    color:rgba(161, 161, 161, 0.7);
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+
+
+.seemore-container .row-2{
+    width: 100%;
+    max-width: 1300px;
+    height: 468px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.seemore-container .row-2 .img{
+    width: 50%;
+    height: 100%;
+}
+
+.seemore-container .row-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seemore-container .row-2 .text-container-container{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seemore-container .row-2 .text-container{
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+
+/*EMPTY*/
+.seemore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.empty p{
+    color: #f0f0f0;
+    font-size: 3em;
+    font-weight: 300;
+    font-family: 'Saira';
+    margin-top: 100px;
+}
+
+.empty button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: Roboto;
+    letter-spacing: 0.05em;
+    outline: none;
+    overflow: visible;
+    padding: 20px 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 1em;
+
+    margin: 30px;
+}
+
+.empty button:hover {
+    color: black;
+    background: white;
+}
+
+
+
+
+@media screen and (max-width:1366px) {
+    .seemore-container .content-container{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .seemore-container .row-1{
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+
+        display: flex;
+    }
+
+    .seemore-container .row-2{
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+    
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .seemore-container .text-container .title-box{
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    
+        color: #f0f0f0;
+        font-size: 2em;
+        font-weight: 500;
+        font-family: 'Roboto';
+    }
+    
+    .specs-container .title{
+        font-size: .7em;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .seemore-container .content-container{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .seemore-container .row-1{
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+
+        display: flex;
+    }
+
+    .seemore-container .row-2{
+        width: 100%;
+        max-width: 1300px;
+        height: 300px;
+        margin-top: 50px;
+    
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .seemore-container .text-container .title-box{
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    
+        color: #f0f0f0;
+        font-size: 2em;
+        font-weight: 500;
+        font-family: 'Roboto';
+    }
+    
+    .specs-container .title{
+        font-size: .7em;
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .seemore-container .content-container{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .seemore-container .row-1{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .seemore-container .row-2{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+    }
+
+
+    .seemore-container .row-1 .text-container-container{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .seemore-container .row-2 .text-container-container{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .seemore-container .text-container .title-box{
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    
+        color: #f0f0f0;
+        font-size: 2em;
+        font-weight: 500;
+        font-family: 'Roboto';
+        text-align: center;
+    }
+
+    
+    .seemore-container .text-container .description{
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+
+        line-height: 26px;
+
+        color:rgba(161, 161, 161, 0.7);
+        font-size: 1em;
+        font-weight: 400;
+        font-family: 'Roboto';
+    }
+
+    
+    
+    .specs-container .title{
+        font-size: .7em;
+    }
+    
+}

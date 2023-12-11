@@ -1,0 +1,36 @@
+    <div className='seemore-container'>
+            <div className='hero-section'>
+                <img data-aos="fade-in" className='sm-hero' src={hero} alt="" />
+
+                <div className="text-container">
+                    <div className="heading">
+                        <p className={dark}>{name}</p>
+                    </div>
+
+                    <div className="subtext">
+                        <p className={dark} >{heroDescription}</p>
+                    </div>
+
+                    <div className="price">
+                        <p className={dark}>₱{price}</p>
+                    </div>
+                </div>
+
+                <div className='pic-area'>
+                    <img className='sm-img' src={image} />
+                </div>
+
+                <div className='buttons-container'>
+                    <Link to= '/products'>
+                        <button className="removeWishlist" onClick={()=>seeMore(id)}><RiArrowGoBackFill />
+                        </button>
+                    </Link>
+                    <button>
+                        <FiShoppingCart />
+                    </button>
+                    <button>
+                        <LuHeart/>
+                    </button>
+                </div>
+            </div>
+        </div>
